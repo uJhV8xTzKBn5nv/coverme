@@ -1,0 +1,51 @@
+ /* Add this to your CSS file or in a <style> tag */
+.scroll-margin-top {
+  padding-top: 100px; /* Adjust this value based on the height of your fixed header/menu */
+}
+
+/* If you're using a fixed header/menu, also add this */
+.fixed-header .scroll-margin-top {
+  margin-top: -100px; /* Make this value the same as the padding-top value */
+}
+
+/* Add this to your CSS file or in a <style> tag */
+.scroll-anchor {
+  position: relative;
+  top: -100px; /* Adjust this value based on the height of your fixed header/menu */
+}
+
+#wrapper > div.content > div.column-image > div.column-title {
+  display: none;
+}
+
+.column-notifer {
+  background-color: transparent !important;
+}
+
+#sec3 {padding-top: 0 !important}
+
+
+#sec1 {    padding-bottom: 28px;
+!important}
+
+
+
+.column-wrapper_text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-wrap: wrap;
+}
+
+.btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.btn {
+  margin: 0 10px;
+}
