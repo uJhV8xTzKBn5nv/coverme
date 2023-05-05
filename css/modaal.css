@@ -1,0 +1,56 @@
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #1b1b1b;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #323232;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #161616;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.formspree-form-success {
+    color: #ffffff;
+}
+
+.formspree-form-success h2 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.formspree-form-success p {
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+
+.btn:active {
+    transform: scale(0.95);
+    transition: transform 0.2s;
+  }
+  

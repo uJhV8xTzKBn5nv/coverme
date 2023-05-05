@@ -25,8 +25,25 @@
 #sec3 {padding-top: 0 !important}
 
 
-#sec1 {    padding-bottom: 28px;
-!important}
+#sec1 {   
+  padding-top: 0;
+  padding-bottom: 28px !important;}
+
+
+
+  #contact {
+    white-space: nowrap;
+    font-weight: bold;
+    color: white;
+}
+
+.whatsapp-link {
+  font-weight: bold;
+  color: #25D366;
+}
+
+#wrapper > div.content > div.column-wrapper > div.sec-dec { width: 100%; }
+
 
 
 
@@ -49,3 +66,32 @@
 .btn {
   margin: 0 10px;
 }
+
+/* Style the WhatsApp container */
+.whatsapp-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Add a CSS-based button only on mobile devices 
+@media (max-width: 767px) {
+  .whatsapp-wrapper {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+  }
+
+  .whatsapp-container {
+      border: 1px solid #ccc; /* Border for the button 
+      border-radius: 4px; /* Rounded corners for the button */
+   /*    padding: 6px; /* Padding for the button 
+      background-color: #f8f8f8; /* Background color for the button 
+  }
+
+  /* Move the WhatsApp icon to the left inside the container 
+  .whatsapp-container .share-btn {
+      margin-right: auto;
+  }
+}
+
